@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2018", "esnext"],
+
+    "target": "es2018",
+
+    // we would actually like to use "es2015", but that fails, see:
+    // https://github.com/Microsoft/TypeScript/issues/22851
+    "module": "commonjs",
+    "esModuleInterop": true,
+
+    "noEmit": false,
+
+    "strict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+  }
+}
